@@ -3,6 +3,7 @@ import { createPinia } from "pinia";
 import { createRouter } from "./router";
 import { createHead } from "@vueuse/head";
 
+
 import App from "./App.vue";
 
 export function createApp() {

@@ -29,8 +29,8 @@ useHead({
 
 <template>
   <main>
-    <p v-if="isLoading">Loading...</p>
-    <p v-else>
+    <p class="text-lg" v-if="isLoading">Loading...</p>
+    <p class="text-lg" v-else>
       <span>Async data: </span>
       <span>{{ data }}</span>
     </p>
