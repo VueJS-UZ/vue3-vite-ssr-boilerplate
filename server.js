@@ -105,10 +105,12 @@ async function createServer(
   };
 }
 
+const port = process.env.PORT || 3000;
+
 if (!isTest) {
   createServer().then(({ app }) =>
-    app.listen(3000, () => {
-      console.log("http://localhost:3000");
+    app.listen(port, () => {
+      console.log(`http://localhost:${port}`);
     })
   );
 }
