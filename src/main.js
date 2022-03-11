@@ -2,7 +2,7 @@ import { createSSRApp } from "vue";
 import { createPinia } from "pinia";
 import { createRouter } from "./router";
 import { createHead } from "@vueuse/head";
-
+import "uno.css";
 
 import App from "./App.vue";
 
