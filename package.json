@@ -28,13 +28,16 @@
     "@vitejs/plugin-vue": "^2.2.2",
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/test-utils": "^2.0.0-rc.18",
+    "autoprefixer": "^10.4.2",
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^8.2.0",
     "express": "^4.17.3",
     "jsdom": "^19.0.0",
+    "postcss": "^8.4.8",
     "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.23",
     "vite": "^2.8.4",
     "vitest": "^0.5.0"
   }
