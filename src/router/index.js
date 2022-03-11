@@ -3,7 +3,7 @@ import {
   createRouter as _createRouter,
   createWebHistory,
 } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import Home from "../pages/index.vue";
 
 export function createRouter() {
   return _createRouter({
@@ -12,7 +12,7 @@ export function createRouter() {
       {
         path: "/",
         name: "home",
-        component: HomeView,
+        component: Home,
       },
       {
         path: "/about",
@@ -20,7 +20,7 @@ export function createRouter() {
         // route level code-splitting
         // this generates a separate chunk (About.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import("../views/AboutView.vue"),
+        component: () => import("../pages/about/index.vue"),
       },
     ],
   });
