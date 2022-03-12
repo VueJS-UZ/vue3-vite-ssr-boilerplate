@@ -11,8 +11,8 @@ useHead(head);
 </script>
 
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="space-y-2 text-center">
+    <h1 class="text-3xl">This is an about page</h1>
     <p>{{ data }}</p>
   </div>
 </template>

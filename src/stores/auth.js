@@ -20,4 +20,5 @@ export const useAuthStore = defineStore("auth", {
       });
     },
   },
+  persist: ["accessToken", "refreshToken", "user"],
 });

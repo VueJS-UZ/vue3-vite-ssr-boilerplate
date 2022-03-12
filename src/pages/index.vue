@@ -30,19 +30,14 @@ useHead({
 <template>
   <main>
     <p class="text-lg" v-if="isLoading">Loading...</p>
-    <p
-      v-else
-      transition="all"
-      text="lg hover:orange-500"
-      transform="hover:translate-x-4"
-    >
+    <p v-else transition="all" text="lg hover:orange-500">
       <span>Async data: </span>
       <span>{{ data }}</span>
     </p>
 
     <p>
       <span>Pinia state: </span>
-      <span>{{ authStore.user }}</span>
+      <code>{{ authStore.user }}</code>
     </p>
   </main>
 </template>
